@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >Random Unsplash Image</h1>
+    <input id="inp" type="text">
+    <button onclick="SekilGetir()">
+        Show
+    </button>
+    <div class="imageContainer">
+      <a id="imageLink" href="#">
+        <img alt="" id="unsplashImage" />
+      </a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+<style>
+    .imageContainer{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+     #unsplashImage {
+    max-height: 500px;
+    min-width: 800px;
+    border: 2px solid rgba(206, 194, 194, 0.945);
+    
+      }
+</style>
+</html>
